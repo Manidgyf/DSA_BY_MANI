@@ -6,7 +6,7 @@ class NextPermutation {
         int arr[] = new int[]{1,2,3};
         nextPermutation(arr);
     }
-    public void nextPermutation(int[] nums) {
+    public static void nextPermutation(int[] nums) {
         int n = nums.length - 1;
         int ind = -1;
         for (int i = n - 1; i >= 0; i--) {
@@ -30,7 +30,7 @@ class NextPermutation {
         }
     }
 
-    public void reverseArray(int arr[], int start, int end) {
+    public static void reverseArray(int arr[], int start, int end) {
         int i = start;
         int j = end;
         while (i < j) {
