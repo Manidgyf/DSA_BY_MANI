@@ -5,6 +5,7 @@ class NextPermutation {
     {
         int arr[] = new int[]{1,2,3};
         nextPermutation(arr);
+        System.out.println(arr);
     }
     public static void nextPermutation(int[] nums) {
         int n = nums.length - 1;

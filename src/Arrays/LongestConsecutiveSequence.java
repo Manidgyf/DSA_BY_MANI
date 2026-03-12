@@ -3,7 +3,7 @@ import java.util.*;
 public class LongestConsecutiveSequence {
         public static void main(String args[])
         {
-            int arr[] = new int[]{100,4,200,1,3,2};
+            int arr[] = new int[]{1,1,2,2,3,3};
             System.out.println(longestConsecutive(arr));
         }
         public static int longestConsecutive(int[] arr) {
